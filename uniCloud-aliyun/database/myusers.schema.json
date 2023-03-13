@@ -1,0 +1,42 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"name": {
+			"bsonType": "string",
+			"title": "姓名",
+			"trim": "both",
+			"minLength": 2,
+			"maxLength": 17
+		},
+		"password": {
+			"bsonType": "string",
+			"title": "密码",
+			"trim": "both"
+		},
+		"email": {
+			"bsonType": "string",
+			"title": "邮箱",
+			"trim": "both",
+			"format": "email",
+			"defaultValue": "123@qq.com"
+		},
+		"headUrl":{
+			"bsonType": "string",
+			"title": "头像地址",
+			"trim": "both",
+			"format": "url",
+			"defaultValue": "/static/user_img/userhead.png"
+		}
+	}
+	
+}

@@ -1,0 +1,86 @@
+
+.all{
+		background-color: gainsboro;
+}
+.top{
+		width: 100%;
+		height: 200rpx;
+		background-color: white;
+}
+.head{
+		border-radius: 20rpx;
+		width: 200rpx;
+		height: 200rpx;
+		display: inline-block;
+}
+.head_img{
+		width: 200rpx;
+		height: 200rpx;
+}
+.massage{
+		position: relative;
+		top: -45rpx;
+		width: 400rpx;
+		height: 200rpx;
+		padding:0 50rpx;
+		display: inline-block;
+}
+.nickname{
+		width: 550rpx;
+		height: 100rpx;
+		padding: 10rpx 0 10rpx;
+		font-size: 150%;
+}
+.account{
+		width: 550rpx;
+		height: 70rpx;
+}
+.device_id{
+		width: 100%;
+		height: 100rpx;
+		margin: 20rpx 0;
+		text-align:left;
+		display: inline-block;
+		background-color: white;
+}
+.inline_block{
+		display: inline-block;
+}
+.text-area{
+		position: relative;
+		top: -40rpx;
+		width: 580rpx;
+		height: 50rpx;
+		display: inline-block;
+}
+.operate{
+		width: 100%;
+		height: 350rpx;
+		background-color: white;
+}
+.text-area2{
+		display: inline-block;
+		width: 650rpx;
+		height: 50rpx;
+		border-bottom: 2rpx solid whitesmoke;
+}
+.action{
+		position: relative;
+		top: -30rpx;
+		width: 580rpx;
+		height: 50rpx;
+		display: inline-block;
+}
+.arrow{
+		position: relative;
+		top: -30rpx;
+		display: inline-block;
+}
+.icon{
+		width: 100rpx;
+		height: 100rpx;
+}
+.icon2{
+		width: 40rpx;
+		height: 40rpx;
+}

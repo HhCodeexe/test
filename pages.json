@@ -1,0 +1,98 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}
+	    ,{
+            "path" : "pages/ucenter/ucenter",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户中心",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/talk/talk",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "交流",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/control/control",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "控制中心",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/monitor/monitor",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "监控中心",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/test/test",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/changePassword/changePassword",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83", //字体颜色
+		"selectedColor": "#3cc51f", //点击选择后的颜色
+		"borderStyle": "black", //边框颜色
+		"backgroundColor": "#ffffff", //背景颜色
+		"list": [{
+			"pagePath": "pages/ucenter/ucenter", //页面地址
+			"iconPath": "static/image/user.png", //图标地址
+			"selectedIconPath": "static/image/user-active.png", //选择后图标地址
+			"text": "主页" //按键显示的文字
+		},{
+			"pagePath": "pages/monitor/monitor",
+			"iconPath": "static/image/monitor.png",
+			"selectedIconPath": "static/image/monitor-active.png",
+			"text": "监控"
+		},{
+			"pagePath": "pages/control/control",
+			"iconPath": "static/image/control.png",
+			"selectedIconPath": "static/image/control-active.png",
+			"text": "控制"
+		},{
+			"pagePath": "pages/talk/talk",
+			"iconPath": "static/image/talk.png",
+			"selectedIconPath": "static/image/talk-active.png",
+			"text": "聊天"
+		}]
+	},
+	"uniIdRouter": {}
+}

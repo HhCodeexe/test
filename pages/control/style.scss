@@ -1,0 +1,37 @@
+@import '../../../../styles/global/index';
+
+@include p(device) {
+	padding: px2rpx(30px);
+	position: relative;
+	.title {
+		font-size: px2rpx(40px);
+		color: #ffffff;
+		letter-spacing: px2rpx(6px);
+	}
+	@include b(led,fan) {
+		@include e(image) {
+			img {
+				@include img--block(px2rpx(280px), px2rpx(280px));
+				@include position--relative(px2rpx(20px), null, null, 50%);
+				transform: translateX(-50%);
+			}
+		}
+		@include e(info) {
+			@include position--relative(px2rpx(36px), null, null, 50%);
+			transform: translateX(-50%);
+			margin: px2rpx(20px);
+			.switch-btn {
+				@include position--relative(px2rpx(-51px), null, null, px2rpx(250px));
+			}
+			.add-btn {
+				@include size(px2rpx(190px), px2rpx(66px));
+				@include position--relative(px2rpx(-122px), null, null,px2rpx(230px));
+				border-radius: px2rpx(20px);
+				font-size: px2rpx(32px);
+				line-height: px2rpx(66px);
+				background-color: #FFB300;
+				color: #FFFFFF;
+			}
+		}
+	}
+}

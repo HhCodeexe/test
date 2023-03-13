@@ -1,0 +1,56 @@
+
+.info {
+		background-size: 100% 100%;
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		height: 100rpx;
+		padding-top: 20rpx;
+		padding-left: 0rpx;
+		padding-right: 0rpx;
+		padding-bottom: 20rpx;
+}
+.show {
+		width: 50%;
+		color: #ffffff;
+		font-size: 28rpx;
+		text-align: center;
+}
+.i{
+		display: inline-block;
+}
+.image {
+		display: block;
+		height: 80%;
+		width: 20%;
+		margin: 0 auto;
+}
+.vedio{
+		background-size: 100% 100%;
+		position: relative;
+}
+.tool{
+		width: 30rpx;
+		height: 30rpx;
+		position: absolute;
+		left: 50rpx;
+		top: 50rpx;
+		border-radius: 30rpx;
+		border-bottom: 10px solid #8f8f94;
+		background-color: red;
+		padding: 30rpx;
+}
+.phone{
+		display: block;
+		width: 40rpx;
+		height: 40rpx;
+}
+.date{
+		width: 50%;
+		height: 200rpx;
+		display: inline-block;
+}
+.dataImg{
+		width: 150rpx;
+		height: 150rpx;
+}

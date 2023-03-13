@@ -1,0 +1,70 @@
+
+.device{
+		padding: 50rpx;
+}
+.led{
+		width: 100%;
+		height: 50%;
+}
+.led__image{
+		width: 150rpx;
+		height: 150rpx;
+		display:inline-block;
+		background-color: white;
+}
+.led__info{
+		position: relative;
+		top: -60rpx;
+		width: 50%;
+		height: 150rpx;
+		display:inline-block;
+		background-color: white;
+}
+.ledtitle{
+		position: relative;
+		top: 0;
+		background-color: greenyellow;
+		width: 100%;
+		height: 30%;
+		font-size: 40rpx;
+		color: #000000;
+		letter-spacing: 6rpx;
+}
+.ledswitch-btn{
+		/* position: relative;
+		top: 70rpx;
+		left: 50rpx; */
+}
+.fen{
+		width: 100%;
+		height: 50%;
+}
+.fan__image{
+		width: 150rpx;
+		height: 150rpx;
+		display: inline-block;
+		background-color: white;
+}
+.fan__info{
+		position: relative;
+		top: -56rpx;
+		width: 50%;
+		height: 150rpx;
+		display: inline-block;
+		background-color: white;
+}
+.fantitle{
+		background-color: greenyellow;
+		font-size: 40rpx;
+		color: #000000;
+		letter-spacing: 6rpx;
+}
+.fanswitch-btn{
+		/* position: absolute;
+		top: 520rpx;
+		left: 420rpx; */
+}
+.img{
+		width: 100%;
+		height: 100%;
+}

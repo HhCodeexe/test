@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/ucenter/ucenter",
+    "pages/talk/talk",
+    "pages/control/control",
+    "pages/monitor/monitor",
+    "pages/test/test",
+    "pages/changePassword/changePassword"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/ucenter/ucenter",
+        "iconPath": "static/image/user.png",
+        "selectedIconPath": "static/image/user-active.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/monitor/monitor",
+        "iconPath": "static/image/monitor.png",
+        "selectedIconPath": "static/image/monitor-active.png",
+        "text": "监控"
+      },
+      {
+        "pagePath": "pages/control/control",
+        "iconPath": "static/image/control.png",
+        "selectedIconPath": "static/image/control-active.png",
+        "text": "控制"
+      },
+      {
+        "pagePath": "pages/talk/talk",
+        "iconPath": "static/image/talk.png",
+        "selectedIconPath": "static/image/talk-active.png",
+        "text": "聊天"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
